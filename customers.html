@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Customers | BeeHyv Software Solutions Private Limited</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="media/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="media/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="media/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="media/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="media/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="media/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="media/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="media/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="media/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="media/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="media/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="media/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="media/favicons/manifest.json">
+    <link rel="mask-icon" href="media/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="media/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+
+    <style>
+        .customer-options{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <header class="text-center">
+        <div class="header-container">
+            <div class="row header-row">
+                <div class="col-sm-3 col-xs-5">
+                    <a href="index.html"><img alt="" id="beehyv-logo" src = "media/images/icons-SVG/Beehyv-Logo-01.svg"></a>
+                </div>
+                <div class="col-sm-9 col-xs-7 padding-side-none-xs">
+                    <div class="col-sm-12 hidden-xs">
+                        <nav class="navbar navbar-right">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-top-nav">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse" id="header-top-nav">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-sm-12 padding-side-none-xs">
+                        <nav class="navbar navbar-right header-bottom-navbar">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle sidepanel-toggle" data-sidepanel-target="#sidepanel-right" data-toggle="collapse" data-target="#header-bottom-nav">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse" id="header-bottom-nav">
+                                <ul class="nav navbar-nav text-right">
+                                    <li class="dropdown">
+                                        <a class=" dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" href="#" aria-expanded="true">Company</a>
+                                        <img alt="" src="media/images/bg-grey.jpg">
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="company-aboutus.html">About Us</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="team.html">Our Team</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="company-differentiators.html">Our Differentiators</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="company-testimonials.html">Testimonials</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="company-csr.html">CSR Initiatives</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class=" dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" href="#" aria-expanded="true">Services</a>
+                                        <img alt="" src="media/images/bg-grey.jpg">
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services-opd.html">OPD</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services-opensource.html">Open Source Platform Development</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services-webmobile.html">Web & Mobile</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services-mlnlp.html">Machine Learning & NLP</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services-uxui.html">UX & UI</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="services-testauto.html">Testing & Automation</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown active"><a href="customers.html">Customers</a><img alt="" src="media/images/bg-grey.jpg"></li>
+                                    <li class="dropdown"><a href="technologies.html">Technologies</a><img alt="" src="media/images/bg-grey.jpg"></li>
+                                    <li class="dropdown"><a href="resources.html">Resources</a><img alt="" src="media/images/bg-grey.jpg"></li>
+                                    <li class="dropdown visible-xs" style="border-top:solid 1px #D1D1D1;height: 10px;"><a></a></li>
+                                    <li class="dropdown visible-xs  sidebar-right-only" style="height: 45px;"><a href="careers.html">Careers</a><img alt="" src="media/images/bg-grey.jpg"></li>
+                                    <li class="dropdown visible-xs sidebar-right-only"><a href="contact.html">Contact</a><img alt="" src="media/images/bg-grey.jpg"></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="main-content" class="text-justify" style="padding-bottom: 90px;">
+        <div class="row">
+            <div class="hidden-xs company-img">
+                <img alt="" src="media/images/Banners/N-Industry_verticals.jpg" class="img-responsive" />
+            </div>
+        </div>
+        <div class="row margin-bottom-none" id="customer-navbar">
+            <div id="navbar-affix" data-spy="affix" data-offset-top="272">
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle  sidepanel-short-toggle" data-sidepanel-target="#sidepanel-left" data-toggle="collapse" data-target="#company-nav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar navbar-green scrollspy text-center navbar-collapse collapse" id="customer-nav">
+                        <ul class="nav customer-nav center-block text-center hidden-xs">
+                            <li class="active"><a href="#industry_enterprise" data-toggle="tooltip" title="Enterprise"><div class="customer-nav-icon customer-nav-icon_enterprise"></div></a></li>
+                            <li><a href="#industry_finance"  data-toggle="tooltip" title="Finance"><div  class="customer-nav-icon customer-nav-icon_finance"></div></a></li>
+                            <li><a href="#industry_healthcare" data-toggle="tooltip" title="Healthcare"><div class="customer-nav-icon customer-nav-icon_healthcare"></div></a></li>
+                            <li><a href="#industry_mHealth" data-toggle="tooltip" title="mHealth"><div class="customer-nav-icon customer-nav-icon_mHealth"></div></a></li>
+                            <li><a href="#industry_ecommerce" data-toggle="tooltip" title="eCommerce"><div class="customer-nav-icon customer-nav-icon_ecommerce"></div></a></li>
+                            <li><a href="#industry_travel" data-toggle="tooltip" title="Education"><div class="customer-nav-icon customer-nav-icon_education"></div></a></li>
+                            <li><a href="#industry_travel" data-toggle="tooltip" title="Travel"><div class="customer-nav-icon customer-nav-icon_travel"></div></a></li>
+                            <li><a href="#industry_design" data-toggle="tooltip" title="Design"><div class="customer-nav-icon customer-nav-icon_design"></div></a></li>
+                            <li><a href="#industry_cms" data-toggle="tooltip" title="Marketing"><div class="customer-nav-icon customer-nav-icon_marketing"></div></a></li>
+                            <li><a href="#industry_cms" data-toggle="tooltip" title="Digital Publishing"><div class="customer-nav-icon customer-nav-icon_digital_publishing"></div></a></li>
+                            <li><a href="#industry_cms" data-toggle="tooltip" title="CMS"><div class="customer-nav-icon customer-nav-icon_cms"></div></a></li>
+                            <li><a href="#industry_gaming" data-toggle="tooltip" title="Agriculture"><div class="customer-nav-icon customer-nav-icon_agriculture"></div></a></li>
+                            <li><a href="#industry_gaming" data-toggle="tooltip" title="Gaming"><div class="customer-nav-icon customer-nav-icon_gaming"></div></a></li>
+                        </ul>
+                        </div>
+                    <div class="navbar navbar-green text-center navbar-collapse collapse" id="company-nav">
+                        <ul class="nav customer-nav center-block text-center visible-xs">
+                            <li class="active"><a href="#industry_enterprise"><div class="customer-nav-icon customer-nav-icon_enterprise"></div></a></li>
+                            <li><a href="#industry_finance-xs"><div class="customer-nav-icon customer-nav-icon_finance"></div></a></li>
+                            <li><a href="#industry_healthcare-xs"><div class="customer-nav-icon customer-nav-icon_healthcare"></div></a></li>
+                            <li><a href="#industry_mHealth-xs"><div class="customer-nav-icon customer-nav-icon_mHealth"></div></a></li>
+                            <li><a href="#industry_ecommerce-xs"><div class="customer-nav-icon customer-nav-icon_ecommerce"></div></a></li>
+                            <li><a href="#industry_education"><div class="customer-nav-icon customer-nav-icon_education"></div></a></li>
+                            <li><a href="#industry_travel-xs"><div class="customer-nav-icon customer-nav-icon_travel"></div></a></li>
+                            <li><a href="#industry_design-xs"><div class="customer-nav-icon customer-nav-icon_design"></div></a></li>
+                            <li><a href="#industry_marketing"><div class="customer-nav-icon customer-nav-icon_marketing"></div></a></li>
+                            <li><a href="#industry_digital_publishing-xs"><div class="customer-nav-icon customer-nav-icon_digital_publishing"></div></a></li>
+                            <li><a href="#industry_cms-xs"><div class="customer-nav-icon customer-nav-icon_cms"></div></a></li>
+                            <li><a href="#industry_agriculture"><div class="customer-nav-icon customer-nav-icon_agriculture"></div></a></li>
+                            <li><a href="#industry_gaming-xs"><div class="customer-nav-icon customer-nav-icon_gaming"></div></a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+       <!-- <div class="row" id="customer-navbar">
+
+
+        </div>-->
+        <div class="row width-limit">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-center margin-bottom-none">BeeHyv is a technology partner for companies across different verticals.  Here's a list of some of the customers we are proud to be associated with.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12" id="industry_enterprise">
+                <h5 class="customer-type-heading margin-bottom-none">Enterprise Software</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_enterprise customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Enterprise-Solution/Alation.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Alation</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_enterprise customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Enterprise-Solution/imi_mobile.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">IMImobile</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_enterprise customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Enterprise-Solution/infinote.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Infinote </h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_enterprise customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Enterprise-Solution/intalio.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Intalio</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 hidden-xs" id="industry_enterprise2">
+                <h5 class="customer-type-heading margin-bottom-none">Enterprise Software</h5>
+            </div>
+            <div class="col-sm-6 hidden-xs" id="industry_finance">
+                <h5 class="customer-type-heading margin-bottom-none">Finance</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_enterprise customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Enterprise-Solution/thinkclearCropped.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">ThinkClear LLC</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_enterprise customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Enterprise-Solution/vigilant_solutions.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Vigilant Solutions</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 visible-xs" id="industry_finance-xs">
+                <h5 class="customer-type-heading margin-bottom-none">Finance</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_finance customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Finance/analytic_insights.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">AnalytixInsight</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_finance customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Finance/blueyield.jpg" class="img-responsive center-block" />
+                    <h6 class="customer-name">BlueYield Inc.</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-9 hidden-xs" id="industry_finance2">
+                <h5 class="customer-type-heading margin-bottom-none" >Finance</h5>
+            </div>
+            <div class="col-sm-3 hidden-xs" id="industry_healthcare">
+                <h5 class="customer-type-heading margin-bottom-none" >Healthcare</h5>
+            </div>
+
+            <div class="col-md-3 col-sm-3 industry_finance customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Finance/finstop.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Finstop</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_finance customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Finance/instream.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">inStream Solutions</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_finance customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Finance/revenue_edge.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Revenue Edge</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 visible-xs" id="industry_healthcare-xs">
+                <h5 class="customer-type-heading margin-bottom-none" >Healthcare</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_healthcare customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/biotech-health-pharma/biosolve-it.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">BioSolveIT GmbH</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 hidden-xs" id="industry_healthcare2">
+                <h5 class="customer-type-heading margin-bottom-none" >Healthcare</h5>
+            </div>
+            <div class="col-sm-3 industry_healthcare customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/biotech-health-pharma/lightning_bolt.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Lightning Bolt Solutions</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 industry_healthcare customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/biotech-health-pharma/nodality.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Nodality</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 industry_healthcare customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/biotech-health-pharma/pronto.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Pronto International</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 industry_healthcare customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/biotech-health-pharma/simplyfy.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Simplyfeye</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 hidden-xs" id="industry_healthcare3">
+                <h5 class="customer-type-heading margin-bottom-none" >Healthcare</h5>
+            </div>
+            <div class="col-sm-9 hidden-xs" id="industry_mHealth">
+                <h5 class="customer-type-heading margin-bottom-none">mHealth</h5>
+            </div>
+            <div class="col-sm-3 col-sm-3 industry_healthcare customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/biotech-health-pharma/Testimonials-3_21.jpg" class="img-responsive center-block" />
+                    <h6 class="customer-name">Ellipsis Health</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 visible-xs" id="industry_mHealth-xs">
+                <h5 class="customer-type-heading margin-bottom-none">mHealth</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_mHealth customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/mhealth/grameen.jpg" class="img-responsive center-block" />
+                    <h6 class="customer-name">Grameen Foundation</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_mHealth customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/mhealth/john_hopkins.jpg" class="img-responsive center-block" />
+                    <h6 class="customer-name">Johns Hopkins University</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_mHealth customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/mhealth/medic_mobile.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Medic Mobile</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 hidden-xs" id="industry_mHealth2">
+                <h5 class="customer-type-heading margin-bottom-none">mHealth</h5>
+            </div>
+            <div class="col-sm-6 hidden-xs" id="industry_ecommerce">
+                <h5 class="customer-type-heading margin-bottom-none">Ecommerce</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_mHealth customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/mhealth/novamed.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Novamed</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_mHealth customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/mhealth/stanford.jpg" class="img-responsive center-block" />
+                    <h6 class="customer-name">Stanford Medicine</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 visible-xs" id="industry_ecommerce-xs">
+                <h5 class="customer-type-heading margin-bottom-none">Ecommerce</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_ecommerce customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/ecommerce_retail/chinesebooksCropped.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Chinese Books</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_ecommerce customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/ecommerce_retail/custom_furnish.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Customfurnish</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 hidden-xs" id="industry_ecommerce2">
+                <h5 class="customer-type-heading margin-bottom-none">Ecommerce</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_ecommerce customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/ecommerce_retail/houzkare.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Houzkare</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_ecommerce customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/ecommerce_retail/loafun.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Loafun</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_ecommerce customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/ecommerce_retail/medplus.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Medplus Eyewear</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_ecommerce customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/ecommerce_retail/trupik.jpg" class="img-responsive center-block" />
+                    <h6 class="customer-name">Trupik</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-9" id="industry_education">
+                <h5 class="customer-type-heading margin-bottom-none">Education</h5>
+            </div>
+            <div class="col-sm-3 hidden-xs" id="industry_travel">
+                <h5 class="customer-type-heading margin-bottom-none">Travel</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_education customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/education/apollo.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Apollo Group</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_education customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/education/edutor.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Edutor Technologies</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_education customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/education/uvlabs.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">UV Labs</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 visible-xs" id="industry_travel-xs">
+                <h5 class="customer-type-heading margin-bottom-none">Travel</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_travel customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Travel-and-Hospitality/hoteltrader.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Hotel Trader</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-9 hidden-xs" id="industry_travel2">
+                <h5 class="customer-type-heading margin-bottom-none">Travel</h5>
+            </div>
+            <div class="col-sm-3 hidden-xs" id="industry_design">
+                <h5 class="customer-type-heading margin-bottom-none">Design</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_travel customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Travel-and-Hospitality/spree.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Spree Hotels</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_travel customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Travel-and-Hospitality/traveltipper.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Travel Tripper</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_travel customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Travel-and-Hospitality/weareholidays.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">WeAreHolidays</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 visible-xs" id="industry_design-xs">
+                <h5 class="customer-type-heading margin-bottom-none">Design</h5>
+            </div>
+            <div class="col-sm-3 industry_design customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Design-and-Usability/changescinece group.jpg" class="img-responsive center-block" />
+                    <h6 class="customer-name">Change Sciences</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3" id="industry_marketing">
+                <h5 class="customer-type-heading margin-bottom-none">Marketing</h5>
+            </div>
+            <div class="col-sm-3 hidden-xs" id="industry_digital_publishing">
+                <h5 class="customer-type-heading margin-bottom-none">Digital Publishing</h5>
+            </div>
+            <div class="col-sm-6 hidden-xs" id="industry_cms">
+                <h5 class="customer-type-heading margin-bottom-none">CMS</h5>
+            </div>
+            <div class="col-sm-3 industry_marketing col-sm-4 customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Marketing-and-Advertising/swym.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Swym Corporation</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 visible-xs" id="industry_digital_publishing-xs">
+                <h5 class="customer-type-heading margin-bottom-none">Digital Publishing</h5>
+            </div>
+            <div class="col-md-3 col-sm-3 industry_digital_publishing customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Digital Publishing/aptara.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Aptara</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 visible-xs" id="industry_cms-xs">
+                <h5 class="customer-type-heading margin-bottom-none">CMS</h5>
+            </div>
+            <div class="col-sm-3 industry_cms customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/CMS/Graca.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Graca Machel Trust</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 industry_cms customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/CMS/krishna.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">J Krishnamurti Foundation</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3" id="industry_agriculture">
+                <h5 class="customer-type-heading margin-bottom-none">Agriculture</h5>
+            </div>
+            <div class="col-sm-3 hidden-xs" id="industry_gaming">
+                <h5 class="customer-type-heading margin-bottom-none">Gaming</h5>
+            </div>
+            <div class="col-sm-6 hidden-xs" style="opacity:0;">
+                <h5 class="customer-type-heading margin-bottom-none">Gaming</h5>
+            </div>
+            <div class="col-sm-3 industry_agriculture customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/Agriculture/gro.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Gro</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 visible-xs" id="industry_gaming-xs">
+                <h5 class="customer-type-heading margin-bottom-none">Gaming</h5>
+            </div>
+            <div class="col-sm-3 industry_gaming customer">
+                <div class="row text-center customer-info">
+                    <img alt="" src="media/images/customer/customer_logos/gaming/bracket_bravado.png" class="img-responsive center-block" />
+                    <h6 class="customer-name">Bracketbravado</h6>
+                </div>
+                <div class="row customer-options">
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Case Study</a>
+                    </div>
+                    <div class="col-xs-6 customer-option">
+                        <a class="btn btn-primary btn-block disabled">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-sm-12">
+                <div class="row width-limit padding-top-small" id="industry9">
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="row footer-style padding-bottom-small padding-top-small">
+            <div class="width-limit">
+                <div class="col-sm-4 col-left-padding">
+                    <h3>Contact Details</h3>
+                    <h6 class="footer-links">BeeHyv Software Solutions Pvt. Ltd., <br>
+                        Level 3, Wing 2, Raja praasadamu,<br>
+                        Botanical Garden Road, Maseed Banda,<br>
+                        Kondapur, Hyderabad, Telangana<br>
+                        INDIA - 500084
+                    </h6>
+                </div>
+                <div class="col-sm-4 col-left-padding">
+                    <h6><em>Email:</em></h6>
+                    <h6 class="footer-links">
+                        For sales related queries, mail to:  <br>
+                        <a href="mailto:sales@beehyv.com" class="footer-links">sales@beehyv.com   </a><br>
+                    </h6>
+                    <h6 class="footer-links">
+                        For general queries, mail to:  <br>
+                        <a href="mailto:info@beehyv.com" class="footer-links">info@beehyv.com  </a><br>
+                    </h6>
+                    <h6 class="footer-links">
+                        For careers mail to:  <br>
+                        <a href="mailto:info@beehyv.com" class="footer-links">careers@beehyv.com  </a>
+                    </h6>
+                </div>
+                <div class="col-sm-4 col-left-padding">
+                    <h6><em> Telephone:</em></h6>
+                    <h6 class="footer-links">
+                        +91 40 40159024  <br>
+
+                    </h6>
+                    <h6>
+                        <a class="footer-links" href="https://www.linkedin.com/company/beehyv-software-solutions-private-limited" target="_blank"><img alt="" src = "media/images/linkedin-footer.png"> Follow us on LinkedIn  </a><br>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="row text-left"  style="background-color: #2c2f31; color:#ffffff;">
+            <div class="width-limit">
+                <div class="col-sm-12 col-left-padding">
+                    <h6><small>
+                        &#169; Copyright 2015 BeeHyv Software Solutions Pvt. Ltd., All Rights Reserved.
+                    </small></h6>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="lib/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+<script type="text/javascript" src="lib/flexfont/flexFont.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').attr("data-placement","bottom");
+          $('[data-toggle="tooltip"]').tooltip();
+
+
+          var navOffset =  180;//used if there is fixed navbar
+          console.log(navOffset);   //Only for debugging at development stage
+
+          setTimeout(function(){
+                $('body').scrollspy({ target: '.scrollspy', offset: navOffset+10 });
+                              //    $('body').scrollspy({ target: '.sidepanel', offset: navOffset+10 });
+                                  $('.scrollspy li a').click(function () {
+                                  console.log("afas");
+                                      var scrollPos = $('body').find($(this).attr('href')).offset().top - navOffset;
+
+                                      $('body,html').animate({ scrollTop: scrollPos}, 500, function () {});
+                                      return false;
+                                  });
+          },1000);
+
+        jQuery(".customer-name").flexFont({
+            sizeRatio:15,
+            minFontSize:12,
+            maxFontSize:16
+        });
+
+
+    });
+</script>
+<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-70071386-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+</body>
+</html>
